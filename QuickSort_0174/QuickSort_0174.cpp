@@ -67,7 +67,15 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 			cmp_count++; //increment variabel cmp_count
 		}
 		cmp_count++; //increment variabel cmp_count
-		
+
+		//mencari elemnt array yang lebih kecil atau sama dengan pivot
+		while ((arr[j] > pivot) && j >= low)
+		{
+			j--; //decrement variabel j
+			cmp_count++; //increment variabel cmp_count
+		}
+		cmp_count;  //increment variabel cmp_count
+	}
 
 }
 
