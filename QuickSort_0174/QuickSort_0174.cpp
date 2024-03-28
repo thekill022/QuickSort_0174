@@ -118,6 +118,8 @@ int main()
 		input(); //pemanggilan prosedur input
 		q_short(0, n - 1); //pemanggilan prosedur input
 		output(); //pemanggilan prosedur input
+		cout << "\n\nIngin Melanjutkan? (y/t) : "; //pilihan untuk melanjutkan looping atau tidak
+		cin >> ch;
 	} while (true);
 	return 0;
 
