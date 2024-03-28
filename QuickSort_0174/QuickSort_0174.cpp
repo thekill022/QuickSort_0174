@@ -55,6 +55,8 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 	}
 
 	pivot = arr[low]; //mengisi variabel pivot dengan arrat index ke low
+	i = low + 1; //mengisi variabel j dengan low + 1
+	
 
 }
 
