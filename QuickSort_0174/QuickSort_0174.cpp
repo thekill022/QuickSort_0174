@@ -35,6 +35,15 @@ void input()  //membuat prosedur input
 
 }
 
+void swap(int x, int y)//membuat prosedur swap dengan parameter x,y bertipe data integer
+{
+	int temp = arr[x]; //mengisi variabel temporary dengan arr index ke x
+	arr[x] = arr[y]; //mengisi arr index ke x dengan arr index ke y
+	arr[y] = temp; //mengisi arr index ke y dengan variabel temporary 
+	mov_count++; //increment variabel mov_count
+}
+
+
 
 int main()
 {
