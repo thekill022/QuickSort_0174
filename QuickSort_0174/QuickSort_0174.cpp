@@ -85,7 +85,8 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 	{
 		swap(low, j); //tukar element pivot dengan elemnt di index j
 	}
-
+	q_short(low, j - 1); //pemanggilan rekursive prosedur q_sort untuk mengurutkan sub array sebelah kiri
+	q_short(j + 1, high); //pemanggilan rekursive prosedur q_sort untuk mengurutkan sub array sebelah kanan
 
 }
 
