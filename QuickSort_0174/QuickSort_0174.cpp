@@ -75,7 +75,13 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 			cmp_count++; //increment variabel cmp_count
 		}
 		cmp_count;  //increment variabel cmp_count
+
+		if (i < j) //perintah jika i < j
+		{
+			swap(i, j); //tukar element di index i dengan element di index j
+		}
 	}
+
 
 }
 
