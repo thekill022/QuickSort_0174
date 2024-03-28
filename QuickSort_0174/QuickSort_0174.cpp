@@ -81,6 +81,10 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 			swap(i, j); //tukar element di index i dengan element di index j
 		}
 	}
+	if (low < j) //perintah jika low < j
+	{
+		swap(low, j); //tukar element pivot dengan elemnt di index j
+	}
 
 
 }
