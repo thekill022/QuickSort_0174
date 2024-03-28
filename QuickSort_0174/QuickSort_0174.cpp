@@ -49,6 +49,13 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 	int temp; //inisialiasi variabel temporary
 	int pivot, i, j; //inisialisasi variabel pivot, i, dan j
 
+	if (low > high) //jika low lebih besar dari high
+	{
+		return; //untuk mengembalikan nilai
+	}
+
+	
+
 }
 
 
