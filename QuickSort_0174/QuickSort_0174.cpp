@@ -46,7 +46,8 @@ void swap(int x, int y)//membuat prosedur swap dengan parameter x,y bertipe data
 void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,high bertipe data integer
 {
 
-	
+	int temp; //inisialiasi variabel temporary
+	int pivot, i, j; //inisialisasi variabel pivot, i, dan j
 
 }
 
