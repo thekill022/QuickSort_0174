@@ -115,7 +115,9 @@ int main()
 
 	do
 	{
-
+		input(); //pemanggilan prosedur input
+		q_short(0, n - 1); //pemanggilan prosedur input
+		output(); //pemanggilan prosedur input
 	} while (true);
 	return 0;
 
