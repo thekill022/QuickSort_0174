@@ -90,6 +90,22 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 
 }
 
+void output() //pembuatan prosedur output
+{
+	cout << "\n-------------------------" << endl; //display untuk menampilkan keterangan elemnt array yang telah di urutkan
+	cout << "\nInputkan Isi elemnt array" << endl;
+	cout << "\n-------------------------" << endl;
+
+	for (int i = 0; i < n; i++) //loopin untuk menampilkan elemnt array yang telah di urutkan
+	{
+		cout << arr[i] << " ";
+	}
+
+	cout << "\n\njumlah perbandingan : " << cmp_count << endl; //untuk menampilkan jumlah perbandingan didalam algoritma
+	cout << "Jumlah Pergerakan Data : " << mov_count << endl; //untuk menampilkan jumlah pergerakan data
+}
+
+
 
 
 int main()
