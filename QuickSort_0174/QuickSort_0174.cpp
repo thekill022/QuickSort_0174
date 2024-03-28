@@ -43,6 +43,13 @@ void swap(int x, int y)//membuat prosedur swap dengan parameter x,y bertipe data
 	mov_count++; //increment variabel mov_count
 }
 
+void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,high bertipe data integer
+{
+
+	
+
+}
+
 
 
 int main()
