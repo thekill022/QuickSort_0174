@@ -120,6 +120,12 @@ int main()
 		output(); //pemanggilan prosedur input
 		cout << "\n\nIngin Melanjutkan? (y/t) : "; //pilihan untuk melanjutkan looping atau tidak
 		cin >> ch;
+		if (ch == 't' || ch == 'T') //jika masukkan pengguna n atau N maka program berhenti
+		{
+			break;
+		}
+		system("pause");
+		system("cls");
 	} while (true);
 	return 0;
 
