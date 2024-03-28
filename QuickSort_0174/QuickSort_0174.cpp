@@ -58,6 +58,10 @@ void q_short(int low, int high) //membuat prosedur q_short dengan parameter low,
 	i = low + 1; //mengisi variabel j dengan low + 1
 	j = high; // mengisi variabel j dengan high
 
+	while (i <= j) //looping selama i <= j
+	{
+
+	}
 
 }
 
